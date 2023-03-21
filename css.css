@@ -21,9 +21,41 @@ body {
   0% {
     opacity: 0;
   }
+  10% {
+    background: green;
+    opacity: 1;
+  }
+  20% {
+    background: red;
+    opacity: 0.2;
+  }
+  30% {
+    background: black;
+    opacity: 0.9;
+  }
+  40% {
+    background: yellow;
+    opacity: 1;
+  }
   50% {
-    transform: scale(1.4);
+    transform: scale(5);
     opacity: 0.4;
+  }
+  60% {
+    background: pink;
+    opacity: 0.2;
+  }
+70% {
+    background: yellow;
+    opacity: 1;
+  }
+80% {
+    background: white;
+    opacity: 0.6;
+  }
+90% {
+    background: brown;
+    opacity: 1;
   }
 }
 
